@@ -24,21 +24,24 @@ public class PlatformMovement : MonoBehaviour
     public List<GameObject> points;
 
 
-
-    int currentPoint = 0;
+    [HideInInspector]
+    public int currentPoint = 0;
     bool movingForawrd = true;
 
 
     // Use this for initialization
     void Start()
     {
-        platform.transform.position = points[currentPoint].transform.position;
+        if(points.Count > 0)
+        {
+            platform.transform.position = points[currentPoint].transform.position;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isMoving)
+        if (isMoving && points.Count > 0)
         {
             platform.transform.position = Vector3.MoveTowards(platform.transform.position, points[currentPoint].transform.position, Time.deltaTime * speed);
             if (platform.transform.position == points[currentPoint].transform.position)
@@ -123,9 +126,19 @@ public class PlatformMovement : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        for (int i = 0; i < points.Count; i++)
+        if(points.Count > 0)
         {
-            Gizmos.DrawWireSphere(points[i].transform.position, gizmoRadius);
+            Vector3 prev = points[0].transform.position;
+            Gizmos.DrawWireSphere(prev, gizmoRadius);
+
+            for (int i = 1; i < points.Count; i++)
+            {
+                Gizmos.DrawWireSphere(points[i].transform.position, gizmoRadius);
+                Gizmos.DrawLine(prev, points[i].transform.position);
+                prev = points[i].transform.position;
+            }
+
+            Gizmos.DrawLine(prev, points[0].transform.position);
         }
     }
 }

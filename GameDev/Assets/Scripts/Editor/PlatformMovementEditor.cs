@@ -27,9 +27,7 @@ public class PlatformMovementEditor : Editor {
             points.arraySize++;
             obj.name = serializedObject.targetObject.name + " " + points.arraySize;
             points.GetArrayElementAtIndex(points.arraySize - 1).objectReferenceValue = obj;
-            
         }
         serializedObject.ApplyModifiedProperties();
-
     }
 }
