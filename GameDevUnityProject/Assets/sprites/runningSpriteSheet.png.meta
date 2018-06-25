@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 516c6c6e610b61740bc45404cf6c9b54
+timeCreated: 1529900855
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: runningSpriteSheet_0
+    21300002: runningSpriteSheet_1
+    21300004: runningSpriteSheet_2
+    21300006: runningSpriteSheet_3
+    21300008: runningSpriteSheet_4
+    21300010: runningSpriteSheet_5
+    21300012: runningSpriteSheet_6
+    21300014: runningSpriteSheet_7
+    21300016: runningSpriteSheet_8
+    21300018: runningSpriteSheet_9
+    21300020: runningSpriteSheet_10
+    21300022: runningSpriteSheet_11
+    21300024: runningSpriteSheet_12
+    21300026: runningSpriteSheet_13
+    21300028: runningSpriteSheet_14
+    21300030: runningSpriteSheet_15
+    21300032: runningSpriteSheet_16
+    21300034: runningSpriteSheet_17
+    21300036: runningSpriteSheet_18
+    21300038: runningSpriteSheet_19
+    21300040: runningSpriteSheet_20
+    21300042: runningSpriteSheet_21
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: runningSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8652
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 8652
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 8652
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 8652
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 8652
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6489
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 6489
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 6489
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 6489
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 6489
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4326
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4326
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 4326
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 4326
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 4326
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2163
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2163
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 2163
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 2163
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 5072
+        y: 2163
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: runningSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 1268
+        height: 2163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
