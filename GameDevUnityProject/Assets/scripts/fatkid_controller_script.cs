@@ -10,6 +10,9 @@ public class fatkid_controller_script : MonoBehaviour {
 	public bool facingRight = true;
     public float jumpForce = 200.0f;
     public float footRayLength = 5.0f;
+    public float footRayStep = 0.48f;
+    public int footRayMin = -2;
+    public int footRayMax = 2;
 	Rigidbody2D rb;
 	Animator anim;
 
@@ -37,22 +40,17 @@ public class fatkid_controller_script : MonoBehaviour {
 			flip();
 		}
 
-        
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, -Vector2.up, footRayLength, LayerMask.GetMask("ground"));
+        grounded = false;
 
-        Debug.DrawRay(transform.position, -Vector2.up * footRayLength, Color.red);
-        if (hit.collider)
+        for(float i = footRayMin; i < footRayMax; i++)
         {
-            grounded = true;
-        }
-        else
-        {
-            grounded = false;
+           grounded |= Physics2D.Raycast(transform.position + new Vector3(i * footRayStep, 0, 0), -Vector2.up, footRayLength, LayerMask.GetMask("ground")).collider != null;
+           Debug.DrawRay(transform.position + new Vector3(i * footRayStep, 0, 0), -Vector2.up * footRayLength, Color.red);
         }
 
-		if (Input.GetButton ("Jump")) {
-            print(grounded);
+
+        if (Input.GetButton ("Jump")) {
 			if (!jumping && grounded) {
 				rb.AddForce (new Vector2 (0, jumpForce));
                 jumping = true;

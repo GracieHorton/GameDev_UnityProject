@@ -18,8 +18,6 @@ public class Platform : MonoBehaviour {
 		
 	}
 
-    //TODO: character movement capture here
-
     void OnCollisionEnter2D(Collision2D col)
     {
         parentDict.Add(col.gameObject.name, col.gameObject.transform.parent);
