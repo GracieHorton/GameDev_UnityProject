@@ -821,10 +821,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9231437f2f60fa4a94a912f92485935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 10
+  maxSpeed: 30
   facingRight: 1
   jumpForce: 30000
   footRayLength: 5
+  footRayStep: 0.48
+  footRayMin: -2
+  footRayMax: 2
 --- !u!1 &1664272675
 GameObject:
   m_ObjectHideFlags: 0
